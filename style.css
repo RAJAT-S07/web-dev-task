@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: sans-serif;
+}
+.team_header{
+    text-align: center;
+}
+.company_name .name .badge{
+    padding: 10px;
+    font-size: 3rem;
+    background-color: rgb(255, 0, 217)!important;
+}
+.details p{
+    padding-bottom: 20px;
+}
+.horizontal_line{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    height: 5px;
+    border-top: 5px dotted rgb(255, 0, 217)!important;
+}
+.team_members {
+    text-transform: capitalize;
+    font-weight: bolder !important;
+}
+.team_members_names .badge{
+    padding: 10px;
+    font-size: 1.8rem;
+    background-color: rgb(255, 0, 217)!important;
+}
+.team_lev1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_members .container {
+  padding: 2rem 0rem;
+}
+
+.team_members .container h4 {
+  margin: 2rem 0rem;
+}
+@media screen and (max-width:1200px){
+    .box{
+        width: 40%;
+    }
+}
+@media screen and (max-bandwidth:600px){
+    .box{
+        width: 90%;
+    }
+}
+
